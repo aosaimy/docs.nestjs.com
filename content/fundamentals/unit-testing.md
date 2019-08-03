@@ -140,7 +140,7 @@ When the application grows, it is hard to manually test a behavior of each API e
 
 ```typescript
 @@filename(cats.e2e-spec)
-import * as request from 'supertest';
+import request from 'supertest';
 import { Test } from '@nestjs/testing';
 import { CatsModule } from '../../src/cats/cats.module';
 import { CatsService } from '../../src/cats/cats.service';
